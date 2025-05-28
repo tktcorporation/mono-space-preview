@@ -6,11 +6,9 @@ interface TextPreviewProps {
 }
 
 const FONTS = {
-  'noto-jp': "'Noto Sans Mono CJK JP', monospace",
-  'source-jp': "'Source Han Mono', monospace",
+  'noto-jp': "'Noto Sans Mono', monospace",
   'mplus': "'M PLUS 1 Code', monospace",
   'ibm-jp': "'IBM Plex Mono', monospace",
-  'roboto-jp': "'Roboto Mono', monospace"
 } as const;
 
 const TextPreview: React.FC<TextPreviewProps> = ({ text }) => {
@@ -48,11 +46,9 @@ const TextPreview: React.FC<TextPreviewProps> = ({ text }) => {
                       rounded px-2 py-1 text-gray-700 dark:text-gray-300 focus:outline-none 
                       focus:ring-1 focus:ring-indigo-500"
           >
-            <option value="noto-jp">Noto Sans Mono CJK JP</option>
-            <option value="source-jp">Source Han Mono</option>
+            <option value="noto-jp">Noto Sans Mono</option>
             <option value="mplus">M PLUS 1 Code</option>
             <option value="ibm-jp">IBM Plex Mono</option>
-            <option value="roboto-jp">Roboto Mono</option>
           </select>
           <select
             value={language}
