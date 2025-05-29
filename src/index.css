@@ -10,8 +10,8 @@
   }
   
   /* Import Japanese monospace fonts */
-  @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@400;500&family=Roboto+Mono:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@400;500&display=swap');
   
   /* Custom scrollbar for code blocks */
   pre::-webkit-scrollbar {
